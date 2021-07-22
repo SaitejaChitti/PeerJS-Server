@@ -60,7 +60,8 @@ const opts = yargs
     },
     allow_discovery: {
       demandOption: true,
-      describe: "allow discovery of peers"
+      describe: "allow discovery of peers",
+      default:true,
     },
     proxied: {
       demandOption: false,
